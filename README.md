@@ -4,7 +4,7 @@ This is a sample assignment for persisting trade details.
 
 Features and assumptions:
 
--The trade flow assignment is built using springboot framework.
+-The trade flow assignment is built using springboot framework and uses embedded tomcat.
 
 -Once the application is started, it can be accesses through http://localhost:8008
 
