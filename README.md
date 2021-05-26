@@ -1,6 +1,6 @@
 # DBTrades
 
-This is a sample assignment for persisting Trade details.
+This is a sample assignment for persisting trade details.
 
 Features and assumptions:
 
