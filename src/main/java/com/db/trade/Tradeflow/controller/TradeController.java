@@ -7,7 +7,7 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.db.trade.Tradeflow.TradeConstants;
+import com.db.trade.Tradeflow.constants.TradeConstants;
 import com.db.trade.Tradeflow.model.TradeDetails;
 import com.db.trade.Tradeflow.service.TradeService;
 

@@ -3,12 +3,10 @@ package com.db.trade.Tradeflow.service;
 import java.util.Date;
 
 import javax.transaction.Transactional;
-
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.db.trade.Tradeflow.TradeConstants;
+import com.db.trade.Tradeflow.constants.TradeConstants;
 import com.db.trade.Tradeflow.model.TradeDetails;
 import com.db.trade.Tradeflow.repository.TradeDao;
 
