@@ -14,9 +14,6 @@ import java.util.Date;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;  
 
-/**
- * Unit test for simple App.
- */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class AppTest  extends TestCase
@@ -27,7 +24,6 @@ public class AppTest  extends TestCase
     @Test
 	public void testSaveRetrieveTrade() throws ParseException
 	{
-    	
     	TradeDetails tradeDetails = new TradeDetails();
 		tradeDetails.setTradeID("T1");
 		tradeDetails.setVersion(3);
