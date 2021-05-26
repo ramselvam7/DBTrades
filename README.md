@@ -18,7 +18,7 @@ Features and assumptions:
 
 -The persisted trade details can be accessed through the H2 database using the URL http://localhost:8008/h2-console
 
--If an existing trade with higher version is entered, then it will be updated successfully,
+-If an existing trade with higher version is entered, then it will be updated successfully.
 
 -If an existing trade with same version is entered, then it will be updated successfully.
 
