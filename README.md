@@ -22,3 +22,5 @@ Features and assumptions:
 
 -If a new version of an already existing trade is persisted with maturity date less than today's date, then the maturity indicator will be set to "N". 
 
+-This MVC application can be enhanced to a CRUD REST API using the appropriate web annotations.
+
