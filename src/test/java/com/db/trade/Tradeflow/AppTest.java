@@ -68,9 +68,12 @@ public class AppTest  extends TestCase
    		tradeDetailsVersion.setMaturityDate(new SimpleDateFormat("dd/MM/yyyy").parse("01/01/2025"));
    		tradeDetailsVersion.setExpiredInd("N");
    		
-   		String result = tradeServiceImpl.persistUpdateTrade(tradeDetails);
+   		String result = tradeServiceImpl.persistUpdateTrade(tradeDetailsVersion);
    		
    		assertEquals(result, "Update");
+   		
+		TradeDetails td = tradeDao.findByTradeID("T1");		
+		assertEquals(td.getVersion(), 5);
 
    	}  
     
@@ -89,7 +92,10 @@ public class AppTest  extends TestCase
    		String result = tradeServiceImpl.persistUpdateTrade(tradeDetails);
    		
    		assertEquals(result, "Savesuccess");
-	
+
+   		
+   		
+   		
    	}  
    
 }
